@@ -1,9 +1,10 @@
 
 build:
 	mvn package
+	mvn install
 
-# exec:
-# 	mvn exec:java -Dexec.mainClass="com.lynn.demo.Application"
+register_exec:
+	mvn exec:java -pl register -Dexec.mainClass="com.lynn.register.Application"
 
 clean:
 	mvn clean
