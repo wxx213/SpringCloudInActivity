@@ -1,5 +1,5 @@
 
-build:
+build: clean
 	mvn package
 	mvn install
 
