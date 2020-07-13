@@ -12,4 +12,24 @@
     <artifactId>user</artifactId>
     <description>用户</description>
 
+    <build>
+          <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>com.lynn.user.Application</mainClass>
+                </configuration>
+            </plugin>
+          </plugins>
+    </build>
+
 </project>
