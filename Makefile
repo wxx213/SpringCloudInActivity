@@ -9,5 +9,8 @@ register_exec:
 config_exec:
 	mvn exec:java -pl config -Dexec.mainClass="com.lynn.config.Application"
 
+gateway_exec:
+	mvn exec:java -pl gateway -Dexec.mainClass="com.lynn.gateway.Application"
+
 clean:
 	mvn clean
