@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wxx213/SpringcloudInActivityConfig.git #配置git仓库地址
+          uri: https://github.com/wxx213/SpringCloudInActivityConfig.git #配置git仓库地址
           searchPaths: repo #配置仓库路径
           username: wxx213 #访问git仓库的用户名
           password: #访问git仓库的用户密码
